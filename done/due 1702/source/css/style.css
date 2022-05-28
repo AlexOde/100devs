@@ -1,0 +1,130 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.button {
+     background: #304659;
+     color: #fff;
+     padding: 8px 25px;
+     text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* NAV BAR */
+
+header {
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     background: #F5F9FC;
+     padding-bottom: 20px;
+}
+
+nav {
+     padding-top: 20px;
+     width: 90%;
+     margin: 0 auto;
+}
+
+.nav li {
+     display: inline;
+     padding: 10px 20px;
+}
+
+.nav a {
+     text-decoration: none;
+}
+
+.logo {
+     float: left;
+}
+
+.navButton {
+     float: right;
+}
+
+/* MAIN section */
+
+main {
+     background: #F5F9FC;
+}
+
+.mainHero {
+     margin: 0 auto;
+}
+
+.mainHero * {
+     display: inline;
+}
+
+.mainLeft {
+     border: 1px solid black;
+     
+}
+
+
+
+.bigImg {
+     float: right;
+     padding-left: 10px;
+     max-width: 100%;
+     width: 500px;
+}
+
+/* FOUR SECTION start */
+
+.fourSection {
+     clear: both;
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 40px;
+}
+
+.fourSection > section {
+     display: inline-block;
+     width: 15%;
+     border: 1px solid black;
+}
+
+
+.fourSection li {
+     list-style-type: none;
+     text-align: left;
+}
+
+.featureIcon {
+     width: 37px;
+     height: 37px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

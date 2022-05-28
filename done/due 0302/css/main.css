@@ -1,0 +1,105 @@
+/*
+    =======================
+    LAYOUT 
+    =======================
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    border: 2px solid black;
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
+
+section {
+    height: 290px;
+    width: 33.3333%;
+    border: 2px solid black;
+    float: left;
+}
+
+/*
+    =======================
+    LANDSCAPE
+    =======================
+*/
+
+
+@media screen and (orientation: landscape) {
+    header,
+    footer {
+        background: linear-gradient(black, white);
+    }
+    section {
+        background: linear-gradient(white, black);
+    }
+    section::after {
+        content: "Can you";
+        padding: 33.3333%;
+    }
+
+    section + section::after {
+        content: "find my";
+        padding: 33.3333%;
+    }
+
+    section + section + section::after {
+        content: "secret?";
+        padding: 33.3333%;
+    }
+}
+
+/*
+    =======================
+    PORTRAIT
+    =======================
+*/
+
+@media screen and (orientation: portrait) {
+    header {
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    }
+    section {
+        background: linear-gradient(to right top, red, white, blue, green, yellow, orange);
+    }
+
+    section::after {
+        content: "I";
+        padding: 50%;
+    }
+
+    section + section {
+        background: linear-gradient(to left, green, yellow, orange, gold);
+    }
+
+    section + section::after {
+        content: "❤";
+        padding: 50%;
+    }
+
+    section + section + section {
+        background: radial-gradient(red, white, blue, green, yellow);
+    }
+
+    section + section + section::after {
+        content: "Colours!";
+        padding: 35%;
+    }
+
+    footer {
+        border: none;
+    }
+
+    footer::after {
+        content: "I lost my borders!";
+    }
+
+    header::after {
+        content: "Hello world!";
+    }
+}

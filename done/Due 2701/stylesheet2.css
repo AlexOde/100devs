@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid black;
+    height: 80px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.top {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;;
+    height: 120px;
+}
+
+.middle1 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 170px;
+    float: left;
+    width: 33.3333%;
+}
+
+.middle2 {
+    border-right: 1px solid black;
+    float: right;
+    height: 170px;
+    width: 66.6666%;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px;
+}

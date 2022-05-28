@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-top: 1px solid black;
+    height: 80px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.first {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+
+.second {
+    border-right: 1px solid black;
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+
+.third {
+    border-right: 1px solid black;
+    float: left;
+    height: 300px;
+    width: 20%;
+}
+
+.fourth {
+    border-right: 1px solid black;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+
+footer {
+    clear: both;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 70px;
+
+}

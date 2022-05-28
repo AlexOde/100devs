@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.hero-top {
+    border-left: 1px solid black;
+    padding: 100px;
+    float: left;
+    width: 33.333%;
+}
+
+.hero-top:nth-child(4) {
+    border-right: 1px solid black;
+}
+
+.hero-middle {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding: 140px;
+    width: 50%;
+    float: left;
+}
+
+.another {
+    border-right: 1px solid black;
+}
+
+footer {
+    clear: both;
+    border: 1px solid black;
+    padding: 50px;
+}

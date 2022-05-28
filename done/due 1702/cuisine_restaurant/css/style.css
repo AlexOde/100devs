@@ -1,0 +1,135 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+     margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+     color: black;
+     text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* Header nav bar */
+
+header {
+    background: url(../images/welcome_background.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+nav img {
+     width: 40px;
+     height: auto;
+}
+
+nav {
+     padding: 20px 5% 0 5%;
+}
+
+nav ul li {
+     display: inline;
+     padding: 0px 15px;
+}
+
+
+.navRight{
+     float: left;
+}
+
+ul {
+     float: right;
+}
+
+/* Main section */
+
+main {
+     clear: both;
+     padding-left: 5%;
+}
+
+h1 {
+     text-transform: capitalize;
+     padding-top: 200px;
+     padding-bottom: 20px;
+     font-size: 70px;
+     max-width: 500px;
+     font-weight: 700;
+     line-height: 80px;
+}
+
+.searchInput {
+     min-width: 40%;
+     height: 50px;
+     border-radius: 5px;
+     border: 1px solid grey;
+}
+
+.button {
+     background: #FF8800;
+     padding: 15px 20px;
+     border-radius: 5px;
+     color: white;
+}
+
+.arrow {
+     border: solid white;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+     transform: rotate(45deg);
+}
+
+.fa-brands {
+     padding-top: 50px;
+     padding-bottom: 5%;
+     color: #FF8800;
+}
+
+.fa-twitter {
+     padding: 0 15%;
+}
+
+.discoverText {
+     background: url(http://placekitten.com/1000/800);
+}
+
+.discover > img {
+     max-width: 500px;
+     float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,319 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: #66768A;
+}
+
+.oswaldFont {
+     font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Navbar */
+
+nav {
+     width: 95%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+li {
+     display: inline;
+     text-align: center;
+}
+
+ul img {
+     height: 50px;
+}
+
+.navLeft {
+     float: left;
+     padding-top: 15px;
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+}
+
+.navPadding  {
+     padding-left: 15px;
+}
+
+.navRight {
+     float: right;
+     padding: 10px;
+     text-decoration: none;
+     background: #FFF;
+     border-radius: 5px;
+     margin-right: 3%;
+}
+
+/* FIRST SECTION */
+
+.hero {
+     color: white;
+     text-align: center;
+     width: 90%;
+     margin: 0 auto;
+     padding-top: 50px;
+}
+
+.hero h1 {
+     text-transform: uppercase;
+     font-size: 70px;
+     font-weight: 400;
+}
+
+.hero p {
+     width: 80%;
+     font-size: 20px;
+     line-height: 30px;
+     margin: 0 auto;
+}
+
+.watchVideo {
+     padding: 18px 0 35px 0;
+}
+
+.watchVideo a {
+     text-decoration: none;
+     color: rgb(207, 204, 204);
+}
+
+.hero .bigBackground {
+     color: #3F4351;
+     font-style: italic;
+     font-size: 15px;
+     padding: 10px 0 30px 0;
+     font-weight: 500;
+}
+
+/* SECOND SECTION FOR WHY */
+
+.why {
+     text-align: center;
+     height: 450px;
+     background-color: white;
+     padding-top: 100px;
+}
+
+.why * {
+     width: 50%;
+     margin: 0 auto;
+}
+
+.why h2 {
+     text-transform: uppercase;
+     font-size: 40px;
+     padding-bottom: 20px;
+}
+
+.why p {
+     font-size: 20px;
+     line-height: 33px;
+}
+
+/* Visit 3rd section */
+
+.visit {
+     height: 750px;
+     background-color: #DBDFE2;
+     width: 100%;
+     padding-top: 80px;
+}
+
+.visit * {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+     font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.visit .visitGym {
+     width: 50%;
+     float: left;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+.visit .visitYou {
+     width: 50%;
+     padding: 0 15px;
+     float: right;
+}
+
+.visit h3 {
+     padding: 20px 0;
+     font-size: 25px;
+}
+
+.visitInfo {
+     font-size: 20px;
+     line-height: 30px;
+     padding-bottom: 30px;
+}
+
+.button {
+     border: 1px solid black;
+     padding: 20px 40px;
+     min-width: 40px;
+     max-width: 180px;
+     font-size: 18px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+/* VOLUNTEER 4th section */
+
+.volunteer {
+     height: 500px;
+     background-color: #fff;
+     width: 100%;
+     padding-top: 80px;
+}
+
+.volunteer * {
+     text-align: center;
+     width: 50%;
+     margin: 0 auto;
+}
+
+.volunteer h2 {
+     font-family: 'Oswald', Arial, Helvetica, sans-serif;
+     font-size: 40px;
+     font-weight: 500;
+}
+
+.volunteer p {
+     width: 40%;
+     font-size: 20px;
+}
+
+.volunteerInfo {
+     padding: 20px 0 40px 0;
+}
+
+.buttonTwo {
+     padding: 20px 10px;
+     border: 1px solid black;
+     min-width: 40px;
+     max-width: 180px;
+     font-size: 18px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+
+/* FOOTER */
+
+footer {
+     height: auto;
+     background: #161F2A;
+     width: 100%;
+}
+
+.footerOne {
+     margin: 0 auto;
+     padding: 20px 0 0 30px;
+     float: left;
+}
+
+.fa {
+     text-decoration: none;
+     margin: 10px;
+}
+
+.fa-facebook {
+     color: #161F2A;
+     background: white;
+     width: 25px;
+     border-radius: 15%;
+}
+
+.fa-twitter,
+.fa-envelope {
+     color: #FFF;
+}
+
+.footerOne h5 {
+     text-transform: uppercase;
+     color: #6D7E92;
+     font-size: 15px;
+     margin: 0 auto;
+     padding-bottom: 3px;
+}
+
+.footerOne h5 ~ a {
+     display: inline;
+     color: #FFF;
+     text-decoration: none;
+     padding-right: 50px;
+     font-weight: bold;
+}
+
+.footerTwo {
+     float: right;
+     padding: 10px 30px 0 0;
+     width: 20%;
+     color: white;
+}
+
+address {
+     font-style: normal;
+}
+
+address h5 {
+     text-transform: uppercase;
+     font-size: 15px;
+}
+
+address span {
+     font-weight: bold;
+}
+
+.footerBottom {
+     clear: both;
+     border-top: 1px solid white;
+     color: #FFF;
+     font-weight: bolder;
+     padding: 10px 0 5% 0;
+}
+
+.footerBottomText {
+     display: inline;
+}
+
+.footerBottom img {
+     width: 30px;
+     float: right;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

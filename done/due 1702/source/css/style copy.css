@@ -1,0 +1,255 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.button {
+     background: #304659;
+     color: #fff;
+     padding: 8px 25px;
+     text-decoration: none;
+}
+
+.collapse input {
+     display: none;
+}
+
+section span {
+     display: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* NAV BAR */
+
+header {
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     background: #F5F9FC;
+     padding-bottom: 20px;
+}
+
+nav {
+     padding-top: 20px;
+     width: 90%;
+     margin: 0 auto;
+}
+
+.nav li {
+     display: inline;
+     padding: 10px 20px;
+}
+
+.nav a {
+     text-decoration: none;
+     color: #657888;
+     font-weight: 600;
+}
+
+.logo {
+     float: left;
+}
+
+.nav .navButton {
+     float: right;
+     color: #fff;
+}
+
+.menu {
+     display: none;
+}
+
+/* MAIN section */
+
+main {
+     background: #F5F9FC;
+}
+
+.mainLeft {
+     float: left;
+     height: auto;
+     padding-left: 8%;
+     padding-top: 50px;
+}
+
+.mainLeft .tagline {
+     color: grey;
+     text-transform: uppercase;
+     padding: 20px 0;
+     font-weight: 600;
+}
+
+.mainLeft h1 {
+     font-size: 50px;
+     max-width: 400px;
+     font-weight: 700;
+     padding-bottom: 40px;
+     color: #2F4557;
+}
+
+input {
+     background: #E1E9F0;
+     box-shadow: none;
+     border: none;
+     height: 38px;
+     width: 300px;
+}
+
+.mainLeft section + p {
+     padding-top: 20px;
+     width: 350px;
+     height: auto;
+     color: #657888;
+     font-weight: 600;
+     line-height: 25px;
+     font-size: 18px;
+}
+
+.bigImg {
+     float: right;
+     height: auto;
+     max-width: 100%;
+}
+
+
+/* FOUR SECTION start */
+
+.fourSection {
+     clear: both;
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 40px;
+}
+
+.fourSection > section {
+     display: inline-block;
+     width: 20%;
+     padding: 0 10px 40px 0;
+}
+
+
+.fourSection li {
+     list-style-type: none;
+     text-align: left;
+}
+
+.fourSection h3 {
+     font-weight: 700;
+     padding: 20px 0;
+     font-size: 20px;
+     color: #51616e;
+}
+
+.fourSection p {
+     color: #657888;
+     font-size: 18px;
+     font-weight: 600;
+     padding-bottom: 20px;
+}
+
+.fourSection a {
+     text-decoration: none;
+     font-size: 16px;
+     color: #2F4557;
+     font-weight: 600;
+}
+
+.featureIcon {
+     width: 37px;
+     height: 37px;
+}
+
+/* Bottom */
+
+.bottom {
+     padding-left: 8%;
+     padding-top: 50px;
+     max-width: 700px;
+}
+
+.bottom h2 {
+     font-size: 50px;
+     height: auto;
+     padding-bottom: 20px;
+     font-weight: 700;
+     color: #51616e;
+}
+
+.bottom p {
+     font-size: 18px;
+     color: #657888;
+     line-height: 30px;
+}
+
+@media screen and (max-width: 1067px){
+     section input {
+          width: 300px;
+          margin-bottom: 20px;
+     }
+
+     .buttonMax {
+          padding: 10px 126px;
+     }
+
+     .fourSection > section{
+          display: block;
+          width: 100%;
+     }
+
+     .logo {
+          text-align: center;
+          float: none;
+     }
+}
+
+@media screen and (max-width: 669px) {
+         .nav li {
+          display: none;
+     }
+
+     .nav a,
+     .nav .navButton {
+          float: left;
+     }
+
+      
+     .collapse input {
+          display: none;
+     }
+
+     section span {
+          display: block;
+          float: left;
+          font-size: 30px;
+     }
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

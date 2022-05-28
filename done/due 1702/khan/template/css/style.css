@@ -1,0 +1,134 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* 
+**********************
+NAV BAR 
+**********************
+*/
+
+header {
+     border-bottom: 1px solid grey;
+     height: 50px;
+}
+
+header nav {
+     max-width: 900px;
+     margin: auto;
+     padding-top: 15px;
+}
+
+
+
+ul {
+     text-align: center;
+}
+
+ul li {
+     display: inline;
+}
+
+.left {
+     float: left;
+     padding: 0 10px;
+}
+
+.right {
+     float: right;
+     padding: 0 10px;
+}
+
+li img {
+     width: 150px;
+}
+
+nav a {
+     text-decoration: none;
+     color: #2F66F3;
+     text-align: center;
+
+}
+
+/* 
+**********************
+MAIN
+**********************
+*/
+
+
+main {
+     max-width: 900px;
+     margin: auto;
+     padding-top: 70px;
+}
+
+main section img {
+     max-width: 50%;
+     float: left;
+}
+
+main section + section {
+     width: 50%;
+     float: right;
+}
+
+h1 {
+     font-size: 50px;
+}
+
+main p {
+     line-height: 25px;
+     padding-top: 30px;
+}
+
+main li {
+     list-style: none;
+     margin-top: 30px;
+     display: inline-block;
+     padding: 15px 2px 15px 2px;
+     background-color: #2F66F3;
+     text-align: center;
+     width: 100px;
+     border-radius: 7px;
+     
+}
+
+section a {
+     text-decoration: none;
+     color: white;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,117 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header {
+     float: left;
+     width: 20%;
+} */
+
+header {
+     float: left;
+     width: 250px;
+}
+
+nav ul li {
+     list-style-type: none;
+     height: 20px;
+     max-width: 200px;
+}
+
+nav ul li a {
+     text-decoration: none;
+}
+
+/* MAIN */
+
+.currentHeadline {
+     float: left;
+     max-width: 500px;
+     height: auto;
+     padding-right: 30px;
+}
+
+.currentHeadline img {
+     width: 100%;
+     height: auto;
+}
+
+.currentHeadline h5 {
+     color: #E1B048;
+     font-size: 20px;
+     margin: 0;
+}
+
+aside span {
+     text-transform: capitalize;
+     font-size: 13px;
+}
+
+aside h3 {
+     font-size: 25px;
+}
+
+/*bottom*/
+
+h6 {
+     clear: both;
+     padding: 20px 0 20px 250px;
+     font-size: 23px;
+     margin-bottom: 0;
+}
+
+.anotherLatest {
+     padding-left: 250px;
+}
+
+.latest > section {
+     display: inline-block;
+     width: 30%;
+}
+
+section > article {
+     font-size: 20px;
+     position: relative;
+     top: -65px;
+
+}
+
+.latest img {
+     object-fit: cover;
+     width: 300px;
+     height: 150px;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,365 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: "Cinzel", Arial, Helvetica, sans-serif;
+}
+
+p,
+span,
+a {
+     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Navbar */
+
+header {
+     margin: 0 auto;
+     padding: 20px 5% 25px 5%;
+}
+
+nav ul li {
+     display: inline;
+}
+
+nav ul li a {
+     color: black;
+     text-decoration: none;
+}
+
+nav ul li a:hover {
+     color: hotpink;
+}
+
+nav ul {
+     text-align: center;
+     margin: 0 auto;
+}
+.logo {
+     text-decoration: none;
+     font-family: 'Great Vibes';
+     font-size: 40px;
+     font-weight: bolder;
+     float: left;
+}
+
+.navPadTop {
+     padding-top: 10px;
+}
+
+.navMain {
+     width: 100%;
+}
+
+.navMenu {
+     text-transform: uppercase;
+     padding: 0 2%;
+     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.fa-madnifying-glass,
+.fa-bag-shopping {
+     width: 10%;
+}
+
+.bookOnline {
+     float: right;
+     text-transform: uppercase;
+}
+
+/* MAIN 1st section */
+
+main {
+     background: url(https://cdn.glitch.global/0c4a03cd-d575-45c2-8d56-40fe433dee66/bg-main.jpg?v=1644764207853);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-left: 15%;
+     min-height: 100%;
+}
+
+main h1 {
+     padding-top: 150px;
+     color: white;
+     font-size: 80px;
+     padding-bottom: 2%;
+}
+
+main p,
+main span {
+     font-family: "Cinzel", Arial, Helvetica, sans-serif;
+     color: white;
+}
+
+main > p {
+     padding-bottom: 30px;
+}
+
+main > span {
+     background: black;
+     padding: 10px 10px;
+}
+
+main section {
+     margin-top: 80px;
+     background: black;
+     width: 350px;
+     padding: 0 20px;
+     word-spacing: 5px;
+     height: 400px;
+     line-height: 50px;
+}
+
+.firstVisit {
+     padding: 50px 0 30px 0;
+}
+
+main section strong {
+     font-size: 40px;
+     font-weight: 700;
+}
+
+main section p + p {
+     font-size: 25px;
+     padding-bottom: 30px;
+}
+
+main section span {
+     background: white;
+     color: black;
+     padding: 10px 10px;
+}
+
+/* 2nd section */
+
+.secondSctn {
+     clear: both;
+     width: 100%;
+     padding-top: 80px;
+     text-align: center;
+     padding-bottom: 100px;
+}
+
+.secondSctn > ul {
+     width: 30%;
+     display: inline-block;
+     text-align: center;
+     min-width: 300px;
+     padding: 0 50px;
+}
+
+.secondSctn img {
+     width: 80px;
+}
+
+.secondSctn h4 {
+     padding-top: 20px;
+     font-weight: 600;
+     font-size: 20px;
+}
+
+.secondSctn p {
+     padding-top: 20px;
+     font-size: 17px;
+     line-height: 30px;
+}
+
+/* 3rd section */
+
+.momentum {
+     background: #F3F4F6;
+     width: 100%;
+     padding: 70px 8% 70px 8%;
+}
+
+.momentum section {
+     width: 40%;
+}
+
+.momentum img {
+     float: right;
+     width: 500px;
+}
+
+.momentum h3 {
+     font-size: 60px;
+     font-weight: 600;
+     padding-bottom: 20px;
+}
+
+.momentum p {
+     font-size: 17px;
+     line-height: 30px;
+     padding-bottom: 30px;
+}
+
+.momentum span {
+     background: black;
+     color: white;
+     padding: 10px 30px;
+}
+
+/* 4th section */
+
+.emp {
+     padding: 40px 8% 70px 8%;
+     text-align: center;
+}
+
+.emp > section {
+     display: inline-block;
+     text-align: center;
+     padding: 0 10px;
+}
+
+.emp img {
+     width: 250px;
+}
+
+.emp > section > section {
+     background: black;
+     color: white;
+     padding: 10px 20px;
+     text-transform: uppercase;
+     line-height: 25px;
+     position: relative;
+     bottom: 30px;
+     width: 220px;
+     margin-left: 15px;
+}
+
+.emp > section > section p {
+     font-size: 20px;
+     font-weight: 500;
+}
+
+/* 5th section */
+
+.dayOffer {
+     width: 100%;
+     background: url(https://www.paidmodelingjobs.com/wp-content/uploads/2017/05/Color-and-Keratin-Hair-Models.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.dayOffer section {
+     padding: 80px 8%;
+     color: white;
+     text-transform: uppercase;
+     width: 70%;
+     max-width: 900px;
+}
+
+.dayOffer .colourDayOffer {
+     font-size: 22px;
+     line-height: 80px;
+}
+
+.dayOffer strong {
+     font-size: 50px;
+     font-weight: 600;
+}
+
+.dayOffer p {
+     line-height: 60px;
+     font-size: 30px;
+}
+
+.dayOffer span:last-child {
+     line-height: 100px;
+     background-color: black;
+     padding: 10px 50px;
+     font-size: 22px;
+}
+
+/* 6th section */
+
+.lookbook h2,
+.lookbook p{
+     text-align: center;
+     font-size: 30px;
+     padding-top: 50px;
+     font-weight: 700;
+}
+
+
+.lookbook p {
+     letter-spacing: -3px;
+}
+
+.lookbookSquare {
+     object-fit: cover;
+     width: 200px;
+     height: 200px;
+}
+
+.lookbookTall {
+     object-fit: cover;
+     height: 400px;
+     width: 200px;
+}
+
+.lookbookGallery {
+     text-align: center;
+     width: 100%;
+}
+
+.lookbookGallery > section {
+     display: inline-block;
+     text-align: center;
+     padding: 10px 10px;
+}
+
+.lookbook1 img,
+.lookbook2 img,
+.lookbook3 img {
+     display: block;
+     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 930px) {
+     .momentum {
+          text-align: center;
+     }
+
+     .momentum section {
+          width: 100%;
+     }
+
+     .momentum img {
+          float: none;
+     }
+     
+     .dayOffer section {
+          width: 100%;
+          text-align: center;
+     }
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
