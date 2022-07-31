@@ -1,0 +1,3 @@
+[submodule "done/27jul/fullstackopen_part3/excercises"]
+	path = done/27jul/fullstackopen_part3/excercises
+	url = https://github.com/AlexOde/fullstackopen_homework.git

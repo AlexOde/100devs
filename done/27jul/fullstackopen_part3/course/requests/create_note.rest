@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "name": "Sample",
+    "time": "Wed Jul 27 2022 19:23:04 GMT+0200"
+}
